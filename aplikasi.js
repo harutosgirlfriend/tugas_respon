@@ -40,7 +40,7 @@ var grades= [];
             <th>uas</th>
             <th>nilai akhir</th>
             <th>grade</th>
-            <th>Action</th>
+            <th id="action">Action</th>
         </tr>`;
         for (let i = 0; i < nim.length; i++) {
             table.innerHTML +=
